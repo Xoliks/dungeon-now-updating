@@ -1,9 +1,0 @@
-from reapermc:event_handler import Event, listener
-
-on_player_consume_item = Event('on_player_consume_item')
-
-@on_player_consume_item.handler
-def handler():
-    execute function on_player_consume_item.generate_path('player_consume_item'):
-        function ../util/consume_item/listener:
-            on_player_consume_item.trigger()

@@ -1,9 +1,0 @@
-from reapermc:event_handler import Event
-
-on_entity_technical_tick = Event('on_entity_technical_tick')
-
-@on_entity_technical_tick.handler
-def handler():
-    execute function on_entity_technical_tick.generate_path('entity_living_tick'):
-        function ../tick/technical:
-            on_entity_technical_tick.trigger()
