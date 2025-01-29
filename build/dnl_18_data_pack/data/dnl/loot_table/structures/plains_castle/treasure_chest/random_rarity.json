@@ -1,22 +1,31 @@
 {
     "pools": [
         {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "yazers_choice:few_crystal"
+            }
+          ]
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
                     "weight": 20,
-                    "name": "dnl:structures/plains_castle/treasure_chest/raid_common"
+                    "value": "dnl:structures/plains_castle/treasure_chest/raid_common"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 4,
-                    "name": "dnl:structures/plains_castle/treasure_chest/raid_rare"
+                    "value": "dnl:structures/plains_castle/treasure_chest/raid_rare"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "dnl:structures/plains_castle/treasure_chest/raid_legendary"
+                    "value": "dnl:structures/plains_castle/treasure_chest/raid_legendary"
                 }
             ]
         }

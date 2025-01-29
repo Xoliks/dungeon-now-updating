@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:andesite"
+      "id": "minecraft:andesite"
     },
     "title": {
       "translate": "Hunter's Grave"
@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:hunters_grave"
+            "structures": "dnl:hunters_grave"
           }
         }
       }

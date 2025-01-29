@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crossbow"
+      "id": "minecraft:crossbow"
     },
     "title": {
       "translate": "Ominous Sign"
@@ -16,22 +16,12 @@
   },
   "parent": "dnl:story/general/locate_dungeon",
   "criteria": {
-    "locate_mansion": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "structure": "dnl:mansion"
-          }
-        }
-      }
-    },
     "locate_pillager_outpost": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "location": {
-            "structure": "minecraft:pillager_outpost"
+            "structures": "minecraft:pillager_outpost"
           }
         }
       }
@@ -41,7 +31,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:railway_outpost"
+            "structures": "dnl:railway_outpost"
           }
         }
       }
@@ -51,7 +41,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:cleric_hideout"
+            "structures": "dnl:cleric_hideout"
           }
         }
       }
@@ -61,7 +51,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:gallery_of_illusion"
+            "structures": "dnl:gallery_of_illusion"
           }
         }
       }
@@ -71,7 +61,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:plains_pillager_camp"
+            "structures": "dnl:plains_pillager_camp"
           }
         }
       }
@@ -81,7 +71,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:plains_pillager_camp_boss"
+            "structures": "dnl:plains_pillager_camp_boss"
           }
         }
       }
@@ -89,7 +79,6 @@
   },
   "requirements": [
     [
-      "locate_mansion",
       "locate_pillager_outpost",
       "locate_railway_outpost",
       "locate_cleric_hideout",

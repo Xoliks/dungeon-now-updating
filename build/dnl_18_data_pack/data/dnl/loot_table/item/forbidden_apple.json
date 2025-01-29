@@ -19,6 +19,7 @@
             },
             {
               "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -34,8 +35,14 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl: {name: 'forbidden_apple', item: 1, id: 5001}}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "name": "forbidden_apple",
+                  "item": 1,
+                  "id": 5001
+                }
+              }
             }
           ]
         }

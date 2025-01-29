@@ -9,8 +9,14 @@
           "name": "minecraft:barrier",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "dnl.sinkhole": 1,
+                  "dnl.slimecore": 1,
+                  "dnl.healthdown": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -34,8 +40,13 @@
           "name": "minecraft:barrier",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b,dnl.size:0}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl.sinkhole": 1,
+                "dnl.slimecore": 1,
+                "dnl.healthdown": 1,
+                "dnl.size": 0
+              }
             }
           ],
           "conditions": [
@@ -59,8 +70,13 @@
           "name": "minecraft:barrier",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b,dnl.size:1}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl.sinkhole": 1,
+                "dnl.slimecore": 1,
+                "dnl.healthdown": 1,
+                "dnl.size": 1
+              }
             }
           ],
           "conditions": [
@@ -84,8 +100,13 @@
           "name": "minecraft:barrier",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b,dnl.size:2}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl.sinkhole": 1,
+                "dnl.slimecore": 1,
+                "dnl.healthdown": 1,
+                "dnl.size": 2
+              }
             }
           ],
           "conditions": [
@@ -109,8 +130,13 @@
           "name": "minecraft:barrier",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b,dnl.size:3}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl.sinkhole": 1,
+                "dnl.slimecore": 1,
+                "dnl.healthdown": 1,
+                "dnl.size": 3
+              }
             }
           ],
           "conditions": [
@@ -134,8 +160,13 @@
           "name": "minecraft:barrier",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b,dnl.size:4}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl.sinkhole": 1,
+                "dnl.slimecore": 1,
+                "dnl.healthdown": 1,
+                "dnl.size": 4
+              }
             }
           ],
           "conditions": [
@@ -159,8 +190,13 @@
           "name": "minecraft:barrier",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b,dnl.size:5}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl.sinkhole": 1,
+                "dnl.slimecore": 1,
+                "dnl.healthdown": 1,
+                "dnl.size": 5
+              }
             }
           ],
           "conditions": [
@@ -184,8 +220,13 @@
           "name": "minecraft:barrier",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b,dnl.size:6}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl.sinkhole": 1,
+                "dnl.slimecore": 1,
+                "dnl.healthdown": 1,
+                "dnl.size": 6
+              }
             }
           ],
           "conditions": [
@@ -209,8 +250,13 @@
           "name": "minecraft:barrier",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b,dnl.size:7}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl.sinkhole": 1,
+                "dnl.slimecore": 1,
+                "dnl.healthdown": 1,
+                "dnl.size": 7
+              }
             }
           ],
           "conditions": [
@@ -234,8 +280,13 @@
           "name": "minecraft:barrier",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b,dnl.size:8}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl.sinkhole": 1,
+                "dnl.slimecore": 1,
+                "dnl.healthdown": 1,
+                "dnl.size": 8
+              }
             }
           ],
           "conditions": [
@@ -259,8 +310,13 @@
           "name": "minecraft:barrier",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl.sinkhole:1b,dnl.slimecore:1b,dnl.healthdown:1b,dnl.size:9}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl.sinkhole": 1,
+                "dnl.slimecore": 1,
+                "dnl.healthdown": 1,
+                "dnl.size": 9
+              }
             }
           ],
           "conditions": [

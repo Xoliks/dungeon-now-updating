@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -63,12 +64,22 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl: {name: 'crown_of_olympus', item: 1, id: 3001}}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "name": "crown_of_olympus",
+                  "item": 1,
+                  "id": 3001
+                }
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{upgradable: 1}}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "upgradable": 1
+                }
+              }
             }
           ]
         }

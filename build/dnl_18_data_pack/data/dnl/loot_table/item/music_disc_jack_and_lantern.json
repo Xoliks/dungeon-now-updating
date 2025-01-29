@@ -19,6 +19,7 @@
             },
             {
               "function": "minecraft:set_lore",
+"mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -29,9 +30,17 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl: {name: 'jack_and_lantern', item: 1, id: 9006, music: 1}}"
-            }
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                  "dnl": {
+                    "name": "jack_and_lantern",
+                    "item": 1,
+                    "id": 9006,
+                    "music": 1
+                  }
+                }
+              }
+            
           ]
         }
       ]

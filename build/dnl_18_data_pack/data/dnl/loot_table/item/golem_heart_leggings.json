@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -48,12 +49,30 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 4043002, dnl: {name: 'golem_heart_armor', item: 1, id: 3002}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    4043002
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "golem_heart_armor",
+                    "item": 1,
+                    "id": 3002
+                  }
+                }
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{tier: 1,armor: 3}}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "tier": 1,
+                  "armor": 3
+                }
+              }
             }
           ]
         }

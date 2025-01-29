@@ -1,20 +1,35 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"NarwhalsEatToast\",display:{Name:'{\"translate\":\"NarwhalsEatToast\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Slipped on a piece of bread, Lost my\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"really hungry head. Now I am here to\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"stay, In a chest that\\'s really gray.\",\"color\":\"gray\",\"italic\":false}']}}"
-            }
-          ]
-        }
-      ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+  "minecraft:custom_name": "{\"translate\":\"NarwhalsEatToast's Head\",\"color\":\"yellow\",\"italic\":false}",
+  "minecraft:lore": [
+    "{\"translate\":\"Slipped on a piece of bread, Lost my\",\"color\":\"gray\",\"italic\":false}",
+    "{\"translate\":\"really hungry head. Now I am here to\",\"color\":\"gray\",\"italic\":false}",
+    "{\"translate\":\"stay, In a chest that's really gray.\",\"color\":\"gray\",\"italic\":false}"
+  ],
+  "minecraft:profile": "NarwhalsEatToast",
+  "minecraft:custom_data": {
+    "dnl": {
+      "name": "checkpoint_player_head",
+      "item": 1,
+      "id": 4001
     }
-  ]
+  }
+}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

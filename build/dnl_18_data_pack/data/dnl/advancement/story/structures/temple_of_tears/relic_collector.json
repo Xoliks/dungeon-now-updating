@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bow",
+      "id": "minecraft:bow",
       "nbt": "{CustomModelData:4040001}"
     },
     "title": {
@@ -22,7 +22,13 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{dnl:{name:'ancient_bow_red'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "ancient_bow_red"
+                }
+              }
+            }
           }
         ]
       }
@@ -32,7 +38,13 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{dnl:{name:'ancient_bow_blue'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "ancient_bow_blue"
+                }
+              }
+            }
           }
         ]
       }
@@ -42,7 +54,13 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{dnl:{name:'ancient_bow_yellow'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "ancient_bow_yellow"
+                }
+              }
+            }
           }
         ]
       }

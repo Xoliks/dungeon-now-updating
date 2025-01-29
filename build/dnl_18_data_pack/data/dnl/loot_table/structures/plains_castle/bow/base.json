@@ -117,19 +117,19 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 90,
-                    "name": "dnl:structures/plains_castle/bow/common"
+                    "value": "dnl:structures/plains_castle/bow/common"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 9,
                     "quality": 20,
-                    "name": "dnl:structures/plains_castle/bow/rare"
+                    "value": "dnl:structures/plains_castle/bow/rare"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
                     "quality": 10,
-                    "name": "dnl:structures/plains_castle/bow/legendary"
+                    "value": "dnl:structures/plains_castle/bow/legendary"
                 }
             ]
         }

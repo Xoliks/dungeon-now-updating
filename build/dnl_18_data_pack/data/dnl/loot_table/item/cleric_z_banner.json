@@ -17,8 +17,43 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{Patterns:[{Pattern:\"mr\",Color:14},{Pattern:\"bs\",Color:13},{Pattern:\"cs\",Color:7},{Pattern:\"bo\",Color:13},{Pattern:\"ms\",Color:15},{Pattern:\"hh\",Color:13},{Pattern:\"mc\",Color:13},{Pattern:\"bo\",Color:15}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "red",
+                    "pattern": "rhombus"
+                  },
+                  {
+                    "color": "green",
+                    "pattern": "stripe_bottom"
+                  },
+                  {
+                    "color": "gray",
+                    "pattern": "stripe_center"
+                  },
+                  {
+                    "color": "green",
+                    "pattern": "border"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "stripe_middle"
+                  },
+                  {
+                    "color": "green",
+                    "pattern": "half_horizontal"
+                  },
+                  {
+                    "color": "green",
+                    "pattern": "circle"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "border"
+                  }
+                ]
+              }
             }
           ]
         }

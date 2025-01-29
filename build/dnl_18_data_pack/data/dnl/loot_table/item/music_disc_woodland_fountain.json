@@ -19,6 +19,7 @@
             },
             {
               "function": "minecraft:set_lore",
+"mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -29,12 +30,23 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl: {name: 'music_disc_woodland_fountain', item: 1, id: 9004, music: 1}}"
-            },
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                  "dnl": {
+                    "name": "music_disc_woodland_fountain",
+                    "item": 1,
+                    "id": 9004,
+                    "music": 1
+                  }
+                }
+              }
+            ,
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:32}"
+              "function": "minecraft:set_components",
+              "components": {
+
+                "minecraft:hide_additional_tooltip": {}
+              }
             }
           ]
         }

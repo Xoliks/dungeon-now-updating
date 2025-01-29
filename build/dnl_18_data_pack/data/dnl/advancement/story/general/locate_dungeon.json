@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:mossy_cobblestone"
+      "id": "minecraft:mossy_cobblestone"
     },
     "title": {
       "translate": "Dungeon Now Loading"
@@ -20,7 +20,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:cleric_hideout"
+            "structures": "dnl:cleric_hideout"
           }
         }
       }
@@ -30,7 +30,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:crawlers_lair"
+            "structures": "dnl:crawlers_lair"
           }
         }
       }
@@ -40,7 +40,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:deep_oasis"
+            "structures": "dnl:deep_oasis"
           }
         }
       }
@@ -50,7 +50,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:forgotten_field"
+            "structures": "dnl:forgotten_field"
           }
         }
       }
@@ -60,7 +60,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:gallery_of_illusion"
+            "structures": "dnl:gallery_of_illusion"
           }
         }
       }
@@ -70,7 +70,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:hivenest"
+            "structures": "dnl:hivenest"
           }
         }
       }
@@ -80,7 +80,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:hunters_grave"
+            "structures": "dnl:hunters_grave"
           }
         }
       }
@@ -90,7 +90,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:olympus"
+            "structures": "dnl:olympus"
           }
         }
       }
@@ -100,7 +100,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:railway_outpost"
+            "structures": "dnl:railway_outpost"
           }
         }
       }
@@ -110,7 +110,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:sinkhole"
+            "structures": "dnl:sinkhole"
           }
         }
       }
@@ -120,7 +120,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:temple_of_tears"
+            "structures": "dnl:temple_of_tears"
           }
         }
       }
@@ -130,7 +130,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:watcher_camp"
+            "structures": "dnl:watcher_camp"
           }
         }
       }

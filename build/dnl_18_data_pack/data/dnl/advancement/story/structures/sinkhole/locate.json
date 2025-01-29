@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:slime_block"
+      "id": "minecraft:slime_block"
     },
     "title": {
       "translate": "Slime Sinkhole"
@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:sinkhole"
+            "structures": "dnl:sinkhole"
           }
         }
       }

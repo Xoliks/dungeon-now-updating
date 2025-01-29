@@ -5,6 +5,15 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "minecraft:item",
           "weight": 90,
           "name": "minecraft:golden_hoe",
@@ -14,8 +23,13 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:silk_touch\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 3,
+                  "minecraft:silk_touch": 1
+                }
+              }
             }
           ]
         },
@@ -29,8 +43,14 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:looting\",lvl:1s},{id:\"minecraft:silk_touch\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 5,
+                  "minecraft:looting": 1,
+                  "minecraft:silk_touch": 1
+                }
+              }
             }
           ]
         },
@@ -44,8 +64,14 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:7s},{id:\"minecraft:looting\",lvl:2s},{id:\"minecraft:silk_touch\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 7,
+                  "minecraft:looting": 2,
+                  "minecraft:silk_touch": 1
+                }
+              }
             }
           ]
         }
@@ -242,7 +268,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

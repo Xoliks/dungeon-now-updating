@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_pickaxe",
+      "id": "minecraft:netherite_pickaxe",
       "nbt": "{CustomModelData:15003}"
     },
     "title": {
@@ -25,7 +25,13 @@
             "items": [
               "minecraft:netherite_sword"
             ],
-            "nbt": "{dnl: { name:'ancient_sword'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "ancient_sword"
+                }
+              }
+            }
           }
         ]
       }
@@ -38,7 +44,13 @@
             "items": [
               "minecraft:netherite_axe"
             ],
-            "nbt": "{dnl: { name:'ancient_axe'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "ancient_axe"
+                }
+              }
+            }
           }
         ]
       }
@@ -51,7 +63,13 @@
             "items": [
               "minecraft:bow"
             ],
-            "nbt": "{dnl: { name:'ancient_bow'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "ancient_bow"
+                }
+              }
+            }
           }
         ]
       }
@@ -64,7 +82,13 @@
             "items": [
               "minecraft:shield"
             ],
-            "nbt": "{dnl: { name:'ancient_shield'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "ancient_shield"
+                }
+              }
+            }
           }
         ]
       }
@@ -77,7 +101,13 @@
             "items": [
               "minecraft:netherite_pickaxe"
             ],
-            "nbt": "{dnl: { name:'ancient_pickaxe'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "ancient_pickaxe"
+                }
+              }
+            }
           }
         ]
       }

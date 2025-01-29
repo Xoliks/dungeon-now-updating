@@ -1,4 +1,4 @@
-data merge entity @s {FireworksItem: {id: "firework_rocket", Count: 1, tag: {Fireworks: {Explosions: [{Type: 1, Flicker: 1b, Trail: 1b, Colors: [I; 3392577], FadeColors: [I; 3931969]}, {Type: 1}, {Type: 1}]}}}}
+data merge entity @s {FireworksItem: {id: "firework_rocket", count: 1, components: {"minecraft:fireworks":{explosions:[{shape:"large_ball",colors:[I;3392577],fade_colors:[I;3931969],has_trail:1b,has_twinkle:1b},{shape:"large_ball"},{shape:"large_ball"}]}}}}
 summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.0d, -1.0d, 0.0d]}
 summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [1.0d, -1.0d, 0.0d]}
 summon arrow ~ ~ ~ {damage: 6.0d, life: 1100, Motion: [0.0d, -1.0d, 1.0d]}

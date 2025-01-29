@@ -5,6 +5,15 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:enchanted_golden_apple"
@@ -12,8 +21,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 5,
-          "name": "dnl:item/forbidden_apple"
-        },
+          "value": "yazers_choice:many_crystal"        },
         {
           "type": "minecraft:item",
           "weight": 20,

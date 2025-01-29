@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:player_head"
+      "id": "minecraft:player_head"
     },
     "title": {
       "translate": "Checkpoint!"
@@ -21,7 +21,13 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{dnl:{name:'checkpoint_player_head'}}"
+            "components":{
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "checkpoint_player_head"
+                }
+              }
+            }
           }
         ]
       }

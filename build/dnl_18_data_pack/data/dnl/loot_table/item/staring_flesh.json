@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -28,8 +29,21 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 4048009, dnl: {name: 'staring_flesh', item: 1, id: 8009}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    4048009
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "staring_flesh",
+                    "item": 1,
+                    "id": 8009
+                  }
+                }
+              }
             }
           ]
         }

@@ -8,43 +8,64 @@
           "name": "minecraft:nether_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 4049999, dnl: {name: 'death_star', item: 1, id: 9999}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    4049999
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "death_star",
+                    "item": 1,
+                    "id": 9999
+                  }
+                }
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{death:15}}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "death": 15
+                }
+              }
             },
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.luck",
-                  "name": "",
+                  "attribute": "minecraft:luck",
+                  "id": "dnl:item",
                   "amount": {
                     "type": "minecraft:score",
                     "target": "this",
                     "score": "dnl.eid"
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "feet"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_speed",
-                  "name": "",
+                  "attribute": "minecraft:attack_speed",
+                  "id": "dnl:item",
                   "amount": {
                     "type": "minecraft:score",
                     "target": "this",
                     "score": "dnl.lid"
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "feet"
                 }
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{bossbar_id:0}}",
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "bossbar_id": 0
+                }
+              },
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -56,8 +77,12 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{bossbar_id:1}}",
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "bossbar_id": 1
+                }
+              },
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -69,8 +94,12 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{bossbar_id:2}}",
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "bossbar_id": 2
+                }
+              },
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -82,8 +111,12 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{bossbar_id:3}}",
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "bossbar_id": 3
+                }
+              },
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -95,8 +128,12 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{bossbar_id:4}}",
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "bossbar_id": 4
+                }
+              },
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -108,8 +145,12 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{bossbar_id:5}}",
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "bossbar_id": 5
+                }
+              },
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -121,8 +162,12 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{bossbar_id:6}}",
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "bossbar_id": 6
+                }
+              },
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -134,8 +179,12 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{bossbar_id:7}}",
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "bossbar_id": 7
+                }
+              },
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -147,8 +196,12 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{bossbar_id:8}}",
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "bossbar_id": 8
+                }
+              },
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -160,8 +213,12 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{bossbar_id:9}}",
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "bossbar_id": 9
+                }
+              },
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:item/old_letter",
+          "value": "yazers_choice:many_crystal",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -24,8 +24,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:item/forbidden_berries"
-        }
+          "value": "yazers_choice:many_crystal"        }
       ]
     }
   ]

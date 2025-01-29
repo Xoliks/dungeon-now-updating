@@ -5,6 +5,15 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "minecraft:item",
           "name": "minecraft:blue_orchid",
           "functions": [
@@ -265,7 +274,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

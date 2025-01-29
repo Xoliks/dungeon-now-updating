@@ -1,20 +1,33 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"RainbowSaber\",display:{Name:'{\"translate\":\"RainbowSaber\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"It\\'s called trash can, not trash can\\'t\",\"color\":\"gray\",\"italic\":false}']}}"
-            }
-          ]
-        }
-      ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+  "minecraft:custom_name": "{\"translate\":\"RainbowSaber's Head\",\"color\":\"yellow\",\"italic\":false}",
+  "minecraft:lore": [
+    "{\"translate\":\"It's called trash can, not trash can't\",\"color\":\"gray\",\"italic\":false}"
+  ],
+  "minecraft:profile": "RainbowSaber",
+  "minecraft:custom_data": {
+    "dnl": {
+      "name": "checkpoint_player_head",
+      "item": 1,
+      "id": 4001
     }
-  ]
+  }
+}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -9,8 +9,21 @@
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"RedScuro\",display:{Name:'{\"translate\":\"RedScuro\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Watch out for monsters\",\"color\":\"gray\",\"italic\":false}']}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"RedScuro's Head\",\"color\":\"yellow\",\"italic\":false}",
+                "minecraft:lore": [
+                  "{\"translate\":\"Watch out for monsters\",\"color\":\"gray\",\"italic\":false}"
+                ],
+                "minecraft:profile": "RedScuro",
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "checkpoint_player_head",
+                    "item": 1,
+                    "id": 4001
+                  }
+                }
+              }
             }
           ]
         }

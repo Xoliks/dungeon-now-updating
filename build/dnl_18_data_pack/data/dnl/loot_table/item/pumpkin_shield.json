@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+"mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -78,12 +79,41 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl: {name: 'pumpkin_shield', item: 1, id: 6002}}"
-            },
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                  "dnl": {
+                    "name": "pumpkin_shield",
+                    "item": 1,
+                    "id": 6002
+                  }
+                }
+              }
+            ,
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:32,BlockEntityTag:{Base:1,Patterns:[{Color:12,Pattern:\"ss\"},{Color:1,Pattern:\"gru\"},{Color:13,Pattern:\"tts\"},{Color:15,Pattern:\"cre\"}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:base_color": "orange",
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "brown",
+                    "pattern": "small_stripes"
+                  },
+                  {
+                    "color": "orange",
+                    "pattern": "gradient_up"
+                  },
+                  {
+                    "color": "green",
+                    "pattern": "triangles_top"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "creeper"
+                  }
+                ]
+              }
             }
           ]
         }

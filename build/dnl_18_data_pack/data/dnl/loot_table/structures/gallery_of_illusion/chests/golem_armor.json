@@ -6,24 +6,29 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "dnl:item/heavy_iron_helmet"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "dnl:item/heavy_iron_chestplate"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "dnl:item/heavy_iron_leggings"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "dnl:item/heavy_iron_boots"
+          "value": "yazers_choice:few_crystal"
         }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "yazers_choice:many_crystal"        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "yazers_choice:many_crystal"        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "yazers_choice:many_crystal"        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "yazers_choice:many_crystal"        }
       ]
     },
     {
@@ -150,7 +155,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

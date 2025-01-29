@@ -6,18 +6,27 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "dnl:structures/olympus/chests/common/material"
+          "value": "dnl:structures/olympus/chests/common/material"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "dnl:structures/olympus/chests/common/food"
+          "value": "dnl:structures/olympus/chests/common/food"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "dnl:structures/olympus/chests/common/enchanted"
+          "value": "dnl:structures/olympus/chests/common/enchanted"
         }
       ]
     },
@@ -100,7 +109,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

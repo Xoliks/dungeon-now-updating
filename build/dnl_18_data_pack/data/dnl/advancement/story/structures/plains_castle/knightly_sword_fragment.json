@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot",
       "nbt": "{CustomModelData:4048003}"
     },
     "title": {
@@ -25,7 +25,13 @@
             "items": [
               "minecraft:iron_ingot"
             ],
-            "nbt": "{dnl:{name:'knightly_sword_fragment'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "knightly_sword_fragment"
+                }
+              }
+            }
           }
         ]
       }

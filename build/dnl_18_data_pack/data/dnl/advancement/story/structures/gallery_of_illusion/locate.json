@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:redstone_lamp"
+      "id": "minecraft:redstone_lamp"
     },
     "title": {
       "translate": "Gallery of Illusion"
@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:gallery_of_illusion"
+            "structures": "dnl:gallery_of_illusion"
           }
         }
       }

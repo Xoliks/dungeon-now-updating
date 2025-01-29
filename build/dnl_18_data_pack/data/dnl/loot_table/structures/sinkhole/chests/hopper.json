@@ -2,6 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 1,
         "max": 5
@@ -13,8 +22,10 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_leaping\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:strong_leaping"
+              }
             }
           ]
         },
@@ -67,7 +78,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

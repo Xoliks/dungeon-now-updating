@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ice"
+      "id": "minecraft:ice"
     },
     "title": {
       "translate": "Watcher Camp"
@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:watcher_camp"
+            "structures": "dnl:watcher_camp"
           }
         }
       }

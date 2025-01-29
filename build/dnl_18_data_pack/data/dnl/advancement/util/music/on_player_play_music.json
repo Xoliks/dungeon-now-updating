@@ -5,7 +5,13 @@
       "conditions": {
         "item": {
           "tag": "minecraft:music_discs",
-          "nbt": "{dnl:{music:1}}"
+          "components": {
+            "minecraft:custom_data": {
+              "dnl": {
+                "music": 1
+              }
+            }
+          }
         }
       }
     }

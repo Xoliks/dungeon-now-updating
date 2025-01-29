@@ -17,9 +17,18 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:marker\",Tags:[\"dnl.marker\",\"dnl.item_frame\",\"dnl.summon\",\"dnl.curse_of_vanishing_sword\"]}}"
-            }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": [
+                    "dnl.marker",
+                    "dnl.item_frame",
+                    "dnl.summon",
+                    "dnl.curse_of_vanishing_sword"
+                  ]
+                }
+              }}
           ]
         }
       ]

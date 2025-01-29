@@ -1,31 +1,29 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "dnl:item/spawner_fragment",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 5,
-                "max": 8
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "yazers_choice:many_crystal",                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "dnl:item/forbidden_apple"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "yazers_choice:many_crystal"                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

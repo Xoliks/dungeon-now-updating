@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:goat_horn",
+      "id": "minecraft:goat_horn",
       "nbt": "{CustomModelData:4044005}"
     },
     "title": {

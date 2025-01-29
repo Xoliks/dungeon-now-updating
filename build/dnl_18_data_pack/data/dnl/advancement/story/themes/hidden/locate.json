@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:moss_block"
+      "id": "minecraft:moss_block"
     },
     "title": {
       "translate": "Hidden Deep"
@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:sinkhole"
+            "structures": "dnl:sinkhole"
           }
         }
       }
@@ -31,7 +31,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:deep_oasis"
+            "structures": "dnl:deep_oasis"
           }
         }
       }
@@ -41,7 +41,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:crawlers_lair"
+            "structures": "dnl:crawlers_lair"
           }
         }
       }

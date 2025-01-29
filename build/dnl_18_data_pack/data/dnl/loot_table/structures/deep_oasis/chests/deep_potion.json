@@ -2,6 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 3,
         "max": 6
@@ -130,38 +139,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 3
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:13b,Amplifier:0b,Duration:9600},{Id:22b,Amplifier:0b,Duration:2400}],CustomPotionColor:58879}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "translate": "Deep Dive Potion",
-                  "color": "gold",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "minecraft:sea_pickle",
           "functions": [
             {
@@ -180,7 +157,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

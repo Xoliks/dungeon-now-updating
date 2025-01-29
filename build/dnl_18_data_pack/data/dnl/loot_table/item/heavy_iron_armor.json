@@ -5,8 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:item/heavy_iron_helmet"
-        }
+          "value": "yazers_choice:many_crystal"        }
       ]
     },
     {
@@ -14,8 +13,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:item/heavy_iron_chestplate"
-        }
+          "value": "yazers_choice:many_crystal"        }
       ]
     },
     {
@@ -23,8 +21,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:item/heavy_iron_leggings"
-        }
+          "value": "yazers_choice:many_crystal"        }
       ]
     },
     {
@@ -32,8 +29,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:item/heavy_iron_boots"
-        }
+          "value": "yazers_choice:many_crystal"        }
       ]
     }
   ]

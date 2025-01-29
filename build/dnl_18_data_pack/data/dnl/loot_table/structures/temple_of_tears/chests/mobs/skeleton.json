@@ -2,6 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 3,
         "max": 4
@@ -13,8 +22,10 @@
           "name": "minecraft:skeleton_skull",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"Spare Skull\",\"italic\":false}'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"Spare Skull\",\"italic\":false}"
+              }
             }
           ]
         },
@@ -24,8 +35,12 @@
           "name": "minecraft:iron_sword",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 5
+                }
+              }
             }
           ]
         },
@@ -35,8 +50,12 @@
           "name": "minecraft:bow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:power": 5
+                }
+              }
             }
           ]
         },
@@ -46,8 +65,10 @@
           "name": "minecraft:tipped_arrow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_poison\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:strong_poison"
+              }
             },
             {
               "function": "minecraft:set_count",

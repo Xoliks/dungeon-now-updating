@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_axe",
+      "id": "minecraft:iron_axe",
       "nbt": "{CustomModelData:4041005}"
     },
     "title": {
@@ -25,7 +25,13 @@
             "items": [
               "minecraft:iron_axe"
             ],
-            "nbt": "{dnl: { name:'ominous_axe'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "ominous_axe"
+                }
+              }
+            }
           }
         ]
       }
@@ -38,7 +44,13 @@
             "items": [
               "minecraft:crossbow"
             ],
-            "nbt": "{dnl: { name:'ominous_crossbow'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "ominous_crossbow"
+                }
+              }
+            }
           }
         ]
       }
@@ -51,7 +63,13 @@
             "items": [
               "minecraft:goat_horn"
             ],
-            "nbt": "{dnl: { name:'ominous_horn'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "ominous_horn"
+                }
+              }
+            }
           }
         ]
       }

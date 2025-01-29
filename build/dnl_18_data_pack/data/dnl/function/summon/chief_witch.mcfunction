@@ -1,1 +1,1 @@
-summon witch ~ ~ ~ {Tags: ["dnl.mob", "dnl.temple_of_tears", "dnl.chief_witch"], PersistenceRequired: 1b, Health: 78.0f, Attributes: [{Name: "generic.max_health", Base: 78}]}
+summon witch ~ ~ ~ {Tags: ["dnl.mob", "dnl.temple_of_tears", "dnl.chief_witch"], PersistenceRequired: 1b, Health: 78.0f, attributes: [{id: "minecraft:max_health", base: 78}]}

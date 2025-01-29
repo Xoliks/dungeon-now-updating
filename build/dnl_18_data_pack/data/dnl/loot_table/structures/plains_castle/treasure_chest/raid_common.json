@@ -1,19 +1,28 @@
 {
     "pools": [
         {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "yazers_choice:few_crystal"
+            }
+          ]
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/plains_castle/armor/common"
+                    "value": "dnl:structures/plains_castle/armor/common"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/plains_castle/bow/common"
+                    "value": "dnl:structures/plains_castle/bow/common"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/plains_castle/sword/common"
+                    "value": "dnl:structures/plains_castle/sword/common"
                 }
             ]
         },
@@ -22,7 +31,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/plains_castle/materials/common"
+                    "value": "dnl:structures/plains_castle/materials/common"
                 }
             ]
         }

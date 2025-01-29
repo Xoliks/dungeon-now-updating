@@ -18,8 +18,17 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{LootTable:\"dnl:structures/hivenest/chests/hive_chest\"},dnl:{name:'hive_chest'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:container_loot": {
+                  "loot_table": "dnl:structures/hivenest/chests/hive_chest"
+                },
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "hive_chest"
+                  }
+                }
+              }
             }
           ]
         }

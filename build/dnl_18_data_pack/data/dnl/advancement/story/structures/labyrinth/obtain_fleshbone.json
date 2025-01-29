@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_sword",
+      "id": "minecraft:iron_sword",
       "nbt": "{CustomModelData:4041003}"
     },
     "title": {
@@ -25,7 +25,13 @@
             "items": [
               "minecraft:iron_sword"
             ],
-            "nbt": "{dnl: {name: 'fleshbone_sword'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "fleshbone_sword"
+                }
+              }
+            }
           }
         ]
       }
@@ -38,7 +44,13 @@
             "items": [
               "minecraft:bow"
             ],
-            "nbt": "{dnl: {name: 'fleshbone_bow'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "fleshbone_bow"
+                }
+              }
+            }
           }
         ]
       }

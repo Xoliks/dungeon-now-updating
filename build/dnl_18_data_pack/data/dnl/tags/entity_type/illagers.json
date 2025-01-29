@@ -1,5 +1,5 @@
 {
-  "description": "All mob entities in 1.19.3",
+  "description": "All illagers in 1.21.4",
   "values": [
     "minecraft:pillager",
     "minecraft:vindicator",

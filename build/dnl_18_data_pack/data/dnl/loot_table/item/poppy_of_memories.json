@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+"mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -28,13 +29,22 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 4048005, dnl: {name: 'poppy_of_memories', item: 1, id: 8005}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        4048005]
+              },
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "poppy_of_memories",
+                    "item": 1,
+                    "id": 8005
+                  }
+                }
+              }
             },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:1}"
-            },
+
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {

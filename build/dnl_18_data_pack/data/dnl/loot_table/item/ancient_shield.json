@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -48,12 +49,47 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl: {name: 'ancient_shield', item: 1, id: 6001}}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "name": "ancient_shield",
+                  "item": 1,
+                  "id": 6001
+                }
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:32,BlockEntityTag:{Base:0,Patterns:[{Color:8,Pattern:\"cbo\"},{Color:7,Pattern:\"bo\"},{Color:15,Pattern:\"gra\"},{Color:15,Pattern:\"gru\"},{Color:15,Pattern:\"mr\"},{Color:7,Pattern:\"flo\"}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:base_color": "white",
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "light_gray",
+                    "pattern": "curly_border"
+                  },
+                  {
+                    "color": "gray",
+                    "pattern": "border"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "gradient"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "gradient_up"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "rhombus"
+                  },
+                  {
+                    "color": "gray",
+                    "pattern": "flower"
+                  }
+                ]
+              }
             }
           ]
         }

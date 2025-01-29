@@ -1,20 +1,34 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"NaranciaPlushie\",display:{Name:'{\"translate\":\"NaranciaPlushie\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"Guys, no one came to my pool party.\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\":((((\",\"color\":\"gray\",\"italic\":false}']}}"
-            }
-          ]
-        }
-      ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+  "minecraft:custom_name": "{\"translate\":\"NaranciaPlushie's Head\",\"color\":\"yellow\",\"italic\":false}",
+  "minecraft:lore": [
+    "{\"translate\":\"Guys, no one came to my pool party.\",\"color\":\"gray\",\"italic\":false}",
+    "{\"translate\":\":((((\",\"color\":\"gray\",\"italic\":false}"
+  ],
+  "minecraft:profile": "NaranciaPlushie",
+  "minecraft:custom_data": {
+    "dnl": {
+      "name": "checkpoint_player_head",
+      "item": 1,
+      "id": 4001
     }
-  ]
+  }
+}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+"mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -58,13 +59,30 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 4041005, dnl: {name: 'ominous_axe', item: 1, id: 1005}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        4041005]
+              },
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "ominous_axe",
+                    "item": 1,
+                    "id": 1005
+                  }
+                }
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{exp:0}}"
-            }
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                  "dnl": {
+                    "exp": 0
+                  }
+                }
+              }
+            
           ]
         }
       ]

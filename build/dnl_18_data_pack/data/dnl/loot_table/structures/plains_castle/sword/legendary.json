@@ -9,8 +9,20 @@
                     "name": "minecraft:diamond_sword",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{Lore:['{\"translate\":\"Treasure\",\"color\":\"dark_aqua\",\"italic\":false}']},Enchantments:[{id:\"minecraft:sharpness\",lvl:6s}],dnl.item:1b,dnl.treasure:1b,dnl.castle:1b}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                  "minecraft:sharpness": 6
+                                },
+                                "minecraft:lore": [
+                                  "{\"translate\":\"Treasure\",\"color\":\"dark_aqua\",\"italic\":false}"
+                                ],
+                                "minecraft:custom_data": {
+                                  "dnl.item": 1,
+                                  "dnl.treasure": 1,
+                                  "dnl.castle": 1
+                                }
+                              }
                         }
                     ]
                 }

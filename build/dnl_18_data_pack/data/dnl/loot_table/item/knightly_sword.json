@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+"mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -38,8 +39,20 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 4041004, dnl: {name: 'knightly_sword', item: 1, id: 1004}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        4041004]
+              },
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "knightly_sword",
+                    "item": 1,
+                    "id": 1004
+                  }
+                }
+              }
             }
           ]
         }

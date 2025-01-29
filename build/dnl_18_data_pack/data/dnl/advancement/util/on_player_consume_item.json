@@ -5,7 +5,13 @@
       "conditions": {
         "item": {
           "tag": "dnl:consumables",
-          "nbt": "{dnl:{item:1}}"
+          "components": {
+            "minecraft:custom_data": {
+              "dnl": {
+                "item": 1
+              }
+            }
+          }
         }
       }
     }

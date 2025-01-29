@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -38,8 +39,14 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl: {name: 'ancient_axe', item: 1, id: 1001}}"
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dnl": {
+                  "name": "ancient_axe",
+                  "item": 1,
+                  "id": 1001
+                }
+              }
             }
           ]
         }

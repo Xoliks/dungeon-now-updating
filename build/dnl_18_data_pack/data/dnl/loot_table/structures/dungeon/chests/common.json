@@ -1,11 +1,20 @@
 {
     "pools": [
         {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "yazers_choice:few_crystal"
+            }
+          ]
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/dungeon/chests/materials/common"
+                    "value": "dnl:structures/dungeon/chests/materials/common"
                 }
             ]
         },
@@ -15,7 +24,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "dnl:structures/dungeon/chests/foods/common"
+                    "value": "dnl:structures/dungeon/chests/foods/common"
                 },
                 {
                     "type": "minecraft:empty",
@@ -29,7 +38,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "dnl:structures/dungeon/chests/equipments/common"
+                    "value": "dnl:structures/dungeon/chests/equipments/common"
                 },
                 {
                     "type": "minecraft:empty",

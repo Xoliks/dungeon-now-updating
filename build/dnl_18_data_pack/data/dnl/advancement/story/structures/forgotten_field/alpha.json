@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:music_disc_strad",
+      "id": "minecraft:music_disc_strad",
       "nbt": "{Enchantments:[{}]}"
     },
     "title": {
@@ -24,7 +24,13 @@
           "items": [
             "minecraft:music_disc_strad"
           ],
-          "nbt": "{dnl: {name: 'music_disc_alpha'}}"
+          "components": {
+            "minecraft:custom_data": {
+              "dnl": {
+                "name": "music_disc_alpha"
+              }
+            }
+          }
         }
       }
     }

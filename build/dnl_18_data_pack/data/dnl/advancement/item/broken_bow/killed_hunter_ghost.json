@@ -9,7 +9,13 @@
               "items": [
                 "bow"
               ],
-              "nbt": "{dnl:{name:'broken_bow'}}"
+              "components": {
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "broken_bow"
+                  }
+                }
+              }
             }
           }
         },
@@ -28,7 +34,13 @@
               "items": [
                 "minecraft:bow"
               ],
-              "nbt": "{dnl:{name:'broken_bow'}}"
+              "components": {
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "broken_bow"
+                  }
+                }
+              }
             }
           }
         },

@@ -2,17 +2,26 @@
     "type": "minecraft:chest",
     "pools": [
         {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "yazers_choice:few_crystal"
+            }
+          ]
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "dnl:maps/hivenest_boss"
+                    "value": "dnl:maps/hivenest_boss"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "dnl:maps/crawlers_lair"
+                    "value": "dnl:maps/crawlers_lair"
                 }
             ]
         },
@@ -25,13 +34,11 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 2,
-                    "name": "dnl:item/honey_potion"
-                },
+                    "value": "yazers_choice:many_crystal"                },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "dnl:item/royal_honey_potion"
-                }
+                    "value": "yazers_choice:many_crystal"                }
             ]
         },
         {
@@ -39,8 +46,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:item/honeycomb_ingot",
-                    "functions": [
+                    "value": "yazers_choice:many_crystal",                    "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
@@ -57,7 +63,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/hivenest/chests/hive"
+                    "value": "dnl:structures/hivenest/chests/hive"
                 }
             ]
         }

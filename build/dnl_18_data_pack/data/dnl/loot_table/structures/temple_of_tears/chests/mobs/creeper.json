@@ -2,6 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 3,
         "max": 4
@@ -13,8 +22,12 @@
           "name": "minecraft:enchanted_book",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:blast_protection\",lvl:4s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "minecraft:blast_protection": 4
+                }
+              }
             }
           ]
         },

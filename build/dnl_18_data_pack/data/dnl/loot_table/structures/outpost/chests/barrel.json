@@ -1,6 +1,15 @@
 {
     "pools": [
         {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "yazers_choice:few_crystal"
+            }
+          ]
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 2
@@ -21,15 +30,15 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/outpost/chests/equipments/common"
+                    "value": "dnl:structures/outpost/chests/equipments/common"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/outpost/chests/foods/common"
+                    "value": "dnl:structures/outpost/chests/foods/common"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/outpost/chests/materials/common"
+                    "value": "dnl:structures/outpost/chests/materials/common"
                 }
             ]
         }

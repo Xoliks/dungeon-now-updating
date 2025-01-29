@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cobweb"
+      "id": "minecraft:cobweb"
     },
     "title": {
       "translate": "Crawlers Lair"
@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:crawlers_lair"
+            "structures": "dnl:crawlers_lair"
           }
         }
       }

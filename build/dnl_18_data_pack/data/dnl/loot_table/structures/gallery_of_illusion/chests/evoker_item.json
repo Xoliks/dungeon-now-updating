@@ -5,28 +5,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:totem_of_undying",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-1624156828,-1286584318,-1177946739,-2073105687],Slot:\"offhand\"}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "translate": "Totem of Undying II",
-                  "color": "yellow",
-                  "italic": false
-                }
-              ]
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
         }
       ]
     },
@@ -102,8 +82,14 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{pages:[\"\"]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:writable_book_content": {
+                  "pages": [
+                    ""
+                  ]
+                }
+              }
             }
           ]
         }
@@ -114,7 +100,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

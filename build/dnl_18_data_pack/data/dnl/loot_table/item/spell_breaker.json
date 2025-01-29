@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+"mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -28,8 +29,20 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 4044007, dnl: {name: 'spell_breaker', item: 1, id: 4007}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        4044007]
+              },
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "spell_breaker",
+                    "item": 1,
+                    "id": 4007
+                  }
+                }
+              }
             }
           ]
         }

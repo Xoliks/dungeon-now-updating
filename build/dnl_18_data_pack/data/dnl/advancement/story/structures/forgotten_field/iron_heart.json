@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_ingot"
+      "id": "minecraft:iron_ingot"
     },
     "title": {
       "translate": "Iron Heart"
@@ -24,7 +24,13 @@
             "items": [
               "minecraft:iron_helmet"
             ],
-            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "golem_heart_armor"
+                }
+              }
+            }
           }
         ]
       }
@@ -37,7 +43,13 @@
             "items": [
               "minecraft:iron_chestplate"
             ],
-            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "golem_heart_armor"
+                }
+              }
+            }
           }
         ]
       }
@@ -50,7 +62,13 @@
             "items": [
               "minecraft:iron_leggings"
             ],
-            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "golem_heart_armor"
+                }
+              }
+            }
           }
         ]
       }
@@ -63,7 +81,13 @@
             "items": [
               "minecraft:iron_boots"
             ],
-            "nbt": "{dnl: {name: 'golem_heart_armor'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "golem_heart_armor"
+                }
+              }
+            }
           }
         ]
       }

@@ -1,6 +1,15 @@
 {
     "pools": [
         {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "yazers_choice:few_crystal"
+            }
+          ]
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -59,7 +68,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/outpost/chests/materials/common"
+                    "value": "dnl:structures/outpost/chests/materials/common"
                 }
             ]
         },
@@ -68,7 +77,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/outpost/chests/materials/legendary"
+                    "value": "dnl:structures/outpost/chests/materials/legendary"
                 }
             ]
         },
@@ -77,7 +86,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/outpost/chests/foods/legendary"
+                    "value": "dnl:structures/outpost/chests/foods/legendary"
                 }
             ]
         },
@@ -86,7 +95,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/outpost/chests/equipments/legendary"
+                    "value": "dnl:structures/outpost/chests/equipments/legendary"
                 }
             ]
         },
@@ -95,7 +104,7 @@
           "entries": [
             {
               "type": "minecraft:loot_table",
-              "name": "dnl:maps/plains_pillager_camp_boss"
+              "value": "dnl:maps/plains_pillager_camp_boss"
             }
           ]
         }

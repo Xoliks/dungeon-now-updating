@@ -6,7 +6,13 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "nbt": "{dnl:{name:'ominous_axe'}}"
+              "components": {
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "ominous_axe"
+                  }
+                }
+              }
             }
           }
         },

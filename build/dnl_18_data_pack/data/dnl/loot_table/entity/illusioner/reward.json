@@ -6,8 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:item/forbidden_melon"
-        }
+          "value": "yazers_choice:many_crystal"        }
       ]
     },
     {
@@ -15,37 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:item/music_disc_jack_and_lantern"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tipped_arrow",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 32,
-                "max": 64
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:2b,Amplifier:2b,Duration:300},{Id:15b,Amplifier:0b,Duration:300}],CustomPotionColor:12728}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "translate": "Arrow of Blindness"
-              }
-            }
-          ]
-        }
+          "value": "yazers_choice:many_crystal"        }
       ]
     },
     {

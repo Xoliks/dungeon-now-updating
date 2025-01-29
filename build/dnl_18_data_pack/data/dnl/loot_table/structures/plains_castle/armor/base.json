@@ -99,19 +99,19 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 90,
-                    "name": "dnl:structures/plains_castle/armor/common"
+                    "value": "dnl:structures/plains_castle/armor/common"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 9,
                     "quality": 20,
-                    "name": "dnl:structures/plains_castle/armor/rare"
+                    "value": "dnl:structures/plains_castle/armor/rare"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
                     "quality": 10,
-                    "name": "dnl:structures/plains_castle/armor/legendary"
+                    "value": "dnl:structures/plains_castle/armor/legendary"
                 }
             ]
         }

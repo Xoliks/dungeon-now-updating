@@ -1,4 +1,4 @@
-execute store result score #dnl.death_bossbar_id dnl.int run data get entity @s Item.tag.dnl.bossbar_id
+execute store result score #dnl.death_bossbar_id dnl.int run data get entity @s Item.components."minecraft:custom_data".dnl.bossbar_id
 execute if score #dnl.death_bossbar_id dnl.int matches 0 run function dnl:util/mob/bossbar/remove_0
 execute if score #dnl.death_bossbar_id dnl.int matches 1 run function dnl:util/mob/bossbar/remove_1
 execute if score #dnl.death_bossbar_id dnl.int matches 2 run function dnl:util/mob/bossbar/remove_2

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dark_prismarine"
+      "id": "minecraft:dark_prismarine"
     },
     "title": {
       "translate": "Deep Oasis"
@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:deep_oasis"
+            "structures": "dnl:deep_oasis"
           }
         }
       }

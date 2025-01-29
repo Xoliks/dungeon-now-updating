@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -28,6 +29,7 @@
             },
             {
               "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -38,13 +40,16 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl: {name: 'old_letter', item: 1, id: 8004}}"
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:1}"
-            },
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                  "dnl": {
+                    "name": "old_letter",
+                    "item": 1,
+                    "id": 8004
+                  }
+                }
+              }
+            ,
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {

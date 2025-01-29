@@ -5,63 +5,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:splash_potion",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:2b,Amplifier:4b,Duration:200},{Id:18b,Amplifier:0b,Duration:200}],CustomPotionColor:8509822}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "translate": "Slimy Potion",
-                  "color": "#FFAA00",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:140},{Id:8b,Amplifier:4b,Duration:140}],CustomPotionColor:3211049}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "translate": "Bouncy Potion",
-                  "color": "#FFAA00",
-                  "italic": false
-                }
-              ]
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
         }
       ]
     },
@@ -232,7 +177,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

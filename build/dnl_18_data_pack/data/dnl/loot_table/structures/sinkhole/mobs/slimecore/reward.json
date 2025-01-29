@@ -70,8 +70,10 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_slowness\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:strong_slowness"
+              }
             }
           ]
         }
@@ -92,8 +94,10 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_leaping\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:strong_leaping"
+              }
             }
           ]
         }
@@ -140,8 +144,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:item/forbidden_apple"
-        }
+          "value": "yazers_choice:many_crystal"        }
       ]
     }
   ]

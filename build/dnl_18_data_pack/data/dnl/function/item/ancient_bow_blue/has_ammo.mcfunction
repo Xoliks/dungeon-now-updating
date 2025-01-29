@@ -1,3 +1,3 @@
-data merge entity @s {life: 1200, Color: -1, CustomPotionEffects: [{Id: 26b, Amplifier: 3b, Duration: 10000, ShowParticles: 0b}]}
+data merge entity @s {life: 1200, Color: -1, item:{components:{"minecraft:potion_contents":{custom_effects:[{id: "minecraft:luck", amplifier: 3b, duration: 10000, show_icon: 0b}]}}}}
 tag @s add dnl.soul_tears
 tag @s add dnl.arrow_trail

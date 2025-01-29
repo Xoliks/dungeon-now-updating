@@ -15,9 +15,24 @@
                             "skip_existing_chunks": false
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"translate\":\"Dungeon Map\",\"color\":\"#008709\",\"italic\":false}',Lore:['{\"translate\":\"Forgotten Field\",\"color\":\"gray\",\"italic\":false}'],MapColor:4554807},HideFlags:32,CustomModelData:4040010,dnl.map:1b,dnl.forgotten_field:1b}"
-                        }
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"translate\":\"Dungeon Map\",\"color\":\"#008709\",\"italic\":false}",
+                                "minecraft:lore": [
+                                  "{\"translate\":\"Forgotten Field\",\"color\":\"gray\",\"italic\":false}"
+                                ],
+                                "minecraft:map_color": 4554807,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        4040010]
+                            },
+
+                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:custom_data": {
+                                  "dnl.map": 1,
+                                  "dnl.forgotten_field": 1
+                                }
+                              }}
                     ]
                 }
             ]

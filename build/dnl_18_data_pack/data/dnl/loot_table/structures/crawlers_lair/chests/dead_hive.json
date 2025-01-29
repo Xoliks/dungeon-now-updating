@@ -2,6 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 3,
         "max": 6
@@ -99,13 +108,11 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "dnl:item/royal_honey_potion"
-        },
+          "value": "yazers_choice:many_crystal"        },
         {
           "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "dnl:item/honey_potion"
-        }
+          "value": "yazers_choice:many_crystal"        }
       ]
     },
     {
@@ -134,7 +141,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

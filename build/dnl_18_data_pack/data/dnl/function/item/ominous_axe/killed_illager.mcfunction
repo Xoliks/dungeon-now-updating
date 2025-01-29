@@ -1,5 +1,5 @@
 advancement revoke @s only dnl:item/ominous_axe/killed_illager
-execute store result score #dnl.temp dnl.int run data get entity @s SelectedItem.tag.dnl.exp
+execute store result score #dnl.temp dnl.int run data get entity @s SelectedItem.components."minecraft:custom_data".dnl.exp
 execute store result storage dnl:temp dnl.exp int 1 run scoreboard players add #dnl.temp dnl.int 1
 execute if score #dnl.temp dnl.int matches 1 run item modify entity @s weapon.mainhand dnl:item/ominous_axe/lore_1
 execute if score #dnl.temp dnl.int matches 2 run item modify entity @s weapon.mainhand dnl:item/ominous_axe/lore_2

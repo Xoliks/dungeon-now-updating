@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+"mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -38,12 +39,30 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 4041003, dnl: {name: 'fleshbone_sword', item: 1, id: 1003}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        4041003]
+              },
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "fleshbone_sword",
+                    "item": 1,
+                    "id": 1003
+                  }
+                }
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{tier: 1}}"
+              "function": "minecraft:set_components",
+              "components":{
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "tier": 1
+                  }
+                }
+              }
             }
           ]
         }

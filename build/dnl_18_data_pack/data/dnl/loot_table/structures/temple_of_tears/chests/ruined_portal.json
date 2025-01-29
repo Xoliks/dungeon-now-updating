@@ -2,6 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 4,
         "max": 8
@@ -10,8 +19,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "dnl:item/music_disc_welcome_to_hell"
-        },
+          "value": "yazers_choice:many_crystal"        },
         {
           "type": "minecraft:item",
           "weight": 1,
@@ -310,7 +318,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

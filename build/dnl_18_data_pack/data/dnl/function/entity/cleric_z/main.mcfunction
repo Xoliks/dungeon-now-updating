@@ -14,8 +14,11 @@ execute store result score @s dnl.health run data get entity @s Health 1
 execute if entity @s[tag=dnl.reset] run function dnl:entity/cleric_z/reset
 execute if score #dnl.1s dnl.tick matches 1 run scoreboard players reset #dnl.cleric_z.conversioning dnl.boolean
 execute if score #dnl.1s dnl.tick matches 1 store success score #dnl.cleric_z.conversioning dnl.boolean run data get entity @s ConversionPlayer
-execute if score #dnl.cleric_z.conversioning dnl.boolean matches 1 store result score #dnl.cleric_z.conversion_time dnl.int run data get entity @s ConversionTime
-execute if score #dnl.cleric_z.conversioning dnl.boolean matches 1 if score #dnl.cleric_z.conversion_time dnl.int matches ..1 run function dnl:entity/cleric_z/converted
+#execute if score #dnl.cleric_z.conversioning dnl.boolean matches 1.. 
+  execute if entity @s[type=zombie_villager] store result score #dnl.cleric_z.conversion_time dnl.int run data get entity @s ConversionTime
+#execute if score #dnl.cleric_z.conversioning dnl.boolean matches 1.. 
+  execute if score #dnl.cleric_z.conversion_time dnl.int matches 1..10 run function dnl:entity/cleric_z/converted
+
 execute if score #dnl.1s dnl.tick matches 1 as @e[type=#dnl:undeads, tag=!dnl.mob, distance=..64] at @s run function dnl:entity/cleric_z/transform_zombie
 execute if score @s dnl.phase matches 1 if score @s dnl.health matches ..150 run function dnl:entity/cleric_z/phase_1/transition
 execute if score @s dnl.phase matches 2 if score @s dnl.health matches ..100 run function dnl:entity/cleric_z/phase_2/transition

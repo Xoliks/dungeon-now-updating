@@ -78,8 +78,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:item/forbidden_golden_apple"
-        }
+          "value": "yazers_choice:many_crystal"        }
       ]
     },
     {
@@ -87,8 +86,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:item/music_disc_meirah"
-        }
+          "value": "yazers_choice:many_crystal"        }
       ]
     }
   ]

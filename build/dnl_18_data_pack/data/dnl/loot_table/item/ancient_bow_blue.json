@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+"mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -53,8 +54,20 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 4040003, dnl: {name: 'ancient_bow_blue', item: 1, id: 3}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        4040003]
+              },
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "ancient_bow_blue",
+                    "item": 1,
+                    "id": 3
+                  }
+                }
+              }
             }
           ]
         }

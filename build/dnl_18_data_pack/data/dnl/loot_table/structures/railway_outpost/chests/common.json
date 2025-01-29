@@ -2,6 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 3,
         "max": 6
@@ -215,8 +224,10 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:poison\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:poison"
+              }
             }
           ]
         },
@@ -231,34 +242,6 @@
                 "min": 2,
                 "max": 7
               }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:tipped_arrow",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 7
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:9b,Amplifier:0b,Duration:300},{Id:19b,Amplifier:1b,Duration:80}],CustomPotionColor:3735478}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "translate": "Arrow of Fugu",
-                  "color": "gold",
-                  "italic": false
-                }
-              ]
             }
           ]
         }
@@ -281,8 +264,12 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:multishot\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "minecraft:multishot": 1
+                }
+              }
             }
           ]
         },
@@ -296,8 +283,12 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:piercing\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "minecraft:piercing": 1
+                }
+              }
             }
           ]
         },
@@ -311,8 +302,12 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:quick_charge\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "minecraft:quick_charge": 1
+                }
+              }
             }
           ]
         }
@@ -323,7 +318,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

@@ -1,6 +1,15 @@
 {
     "pools": [
         {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "yazers_choice:few_crystal"
+            }
+          ]
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -23,8 +32,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:item/ominous_emerald",
-                    "functions": [
+                    "value": "yazers_choice:many_crystal",                    "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {

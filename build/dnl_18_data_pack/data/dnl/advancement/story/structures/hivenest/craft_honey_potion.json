@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
+      "id": "minecraft:potion",
       "nbt": "{CustomPotionColor:16763190,Enchantments:[{}]}"
     },
     "title": {
@@ -22,7 +22,13 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{dnl: {name: 'honey_potion'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "honey_potion"
+                }
+              }
+            }
           }
         ]
       }

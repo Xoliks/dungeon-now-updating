@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:red_mushroom_block"
+      "id": "minecraft:red_mushroom_block"
     },
     "title": {
       "translate": "Cleric's Hideout"
@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:cleric_hideout"
+            "structures": "dnl:cleric_hideout"
           }
         }
       }

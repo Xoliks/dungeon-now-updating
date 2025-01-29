@@ -1,6 +1,12 @@
 [
-  {
-    "function": "minecraft:set_nbt",
-    "tag": "{dnl:{lvl:3}}"
-  }
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_data": {
+                "dnl": {
+                    "lvl": 3
+                }
+            }
+        }
+    }
 ]

@@ -2,6 +2,15 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 3,
         "max": 6
@@ -183,46 +192,11 @@
       ]
     },
     {
-      "rolls": {
-        "min": 2,
-        "max": 3
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tipped_arrow",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 7
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:9b,Amplifier:0b,Duration:300},{Id:19b,Amplifier:1b,Duration:80}],CustomPotionColor:3735478}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "translate": "Arrow of Fugu",
-                  "color": "gold",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

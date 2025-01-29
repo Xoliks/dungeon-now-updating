@@ -1,0 +1,34 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "Illager Aspect",
+        "color": "#AAAAAA",
+        "italic": false
+      },
+      {
+        "translate": "When attacking Illager mobs,",
+        "color": "#555555",
+        "italic": false
+      },
+      {
+        "translate": "it has 20% chance of dropping",
+        "color": "#555555",
+        "italic": false
+      },
+      {
+        "translate": "an Emerald.",
+        "color": "#555555",
+        "italic": false
+      },
+      {
+        "translate": "Evolution (10/10)",
+        "color": "#AAAAAA",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

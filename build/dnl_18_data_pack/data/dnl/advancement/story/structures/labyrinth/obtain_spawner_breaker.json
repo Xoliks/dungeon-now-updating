@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:diamond_pickaxe",
+      "id": "minecraft:diamond_pickaxe",
       "nbt": "{CustomModelData:4042002}"
     },
     "title": {
@@ -25,7 +25,13 @@
             "items": [
               "minecraft:diamond_pickaxe"
             ],
-            "nbt": "{dnl: {name: 'spawner_breaker'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "spawner_breaker"
+                }
+              }
+            }
           }
         ]
       }

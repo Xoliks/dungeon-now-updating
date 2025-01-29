@@ -1,19 +1,28 @@
 {
     "pools": [
         {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "yazers_choice:few_crystal"
+            }
+          ]
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/plains_castle/armor/legendary"
+                    "value": "dnl:structures/plains_castle/armor/legendary"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/plains_castle/bow/legendary"
+                    "value": "dnl:structures/plains_castle/bow/legendary"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/plains_castle/sword/legendary"
+                    "value": "dnl:structures/plains_castle/sword/legendary"
                 }
             ]
         },
@@ -22,7 +31,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/plains_castle/materials/legendary"
+                    "value": "dnl:structures/plains_castle/materials/legendary"
                 }
             ]
         }

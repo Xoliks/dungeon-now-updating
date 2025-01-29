@@ -2,19 +2,28 @@
     "type": "minecraft:chest",
     "pools": [
         {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "yazers_choice:few_crystal"
+            }
+          ]
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/plains_castle/armor/base"
+                    "value": "dnl:structures/plains_castle/armor/base"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/plains_castle/bow/base"
+                    "value": "dnl:structures/plains_castle/bow/base"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:structures/plains_castle/sword/base"
+                    "value": "dnl:structures/plains_castle/sword/base"
                 }
             ]
         }

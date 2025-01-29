@@ -1,14 +1,13 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "dnl:item/forbidden_apple"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "yazers_choice:many_crystal"                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

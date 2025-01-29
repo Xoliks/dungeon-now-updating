@@ -5,6 +5,15 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "minecraft:item",
           "weight": 54,
           "name": "minecraft:enchanted_book",
@@ -14,8 +23,12 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "minecraft:power": 1
+                }
+              }
             }
           ]
         },
@@ -29,8 +42,12 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:2s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "minecraft:power": 2
+                }
+              }
             }
           ]
         },
@@ -44,8 +61,12 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:3s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "minecraft:power": 3
+                }
+              }
             }
           ]
         },
@@ -59,8 +80,12 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:4s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "minecraft:power": 4
+                }
+              }
             }
           ]
         },
@@ -74,8 +99,12 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:5s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "minecraft:power": 5
+                }
+              }
             }
           ]
         },
@@ -89,8 +118,12 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:punch\",lvl:1s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "minecraft:punch": 1
+                }
+              }
             }
           ]
         },
@@ -104,8 +137,12 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:punch\",lvl:2s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "minecraft:punch": 2
+                }
+              }
             }
           ]
         }
@@ -204,7 +241,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

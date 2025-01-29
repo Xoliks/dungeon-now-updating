@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crossbow",
+      "id": "minecraft:crossbow",
       "nbt": "{CustomModelData:4040007}"
     },
     "title": {
@@ -25,7 +25,13 @@
             "items": [
               "minecraft:diamond_axe"
             ],
-            "nbt": "{dnl: { name:'royal_ominous_axe'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "royal_ominous_axe"
+                }
+              }
+            }
           }
         ]
       }
@@ -38,7 +44,13 @@
             "items": [
               "minecraft:crossbow"
             ],
-            "nbt": "{dnl: { name:'royal_ominous_crossbow'}}"
+            "components": {
+              "minecraft:custom_data": {
+                "dnl": {
+                  "name": "royal_ominous_crossbow"
+                }
+              }
+            }
           }
         ]
       }

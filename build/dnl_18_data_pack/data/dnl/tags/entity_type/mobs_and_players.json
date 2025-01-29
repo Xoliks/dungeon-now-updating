@@ -1,5 +1,5 @@
 {
-  "description": "All mob entities and players in 1.19.3",
+  "description": "All mob entities and players in 1.21.4",
   "values": [
     "minecraft:player",
     "#dnl:mobs"

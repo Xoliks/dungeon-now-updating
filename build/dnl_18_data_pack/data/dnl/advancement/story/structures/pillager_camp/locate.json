@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gray_wool",
+      "id": "minecraft:gray_wool",
       "nbt": "{CustomModelData:600018}"
     },
     "title": {
@@ -22,7 +22,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:plains_pillager_camp"
+            "structures": "dnl:plains_pillager_camp"
           }
         }
       }
@@ -32,7 +32,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:plains_pillager_camp_boss"
+            "structures": "dnl:plains_pillager_camp_boss"
           }
         }
       }

@@ -5,29 +5,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_hoe",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.01,
-                "max": 0.2
-              }
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:silk_touch"
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.3
-                }
-              ]
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
         }
       ]
     },
@@ -110,7 +89,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 5,
-          "name": "dnl:structures/hivenest/chests/flower"
+          "value": "dnl:structures/hivenest/chests/flower"
         },
         {
           "type": "minecraft:item",
@@ -175,7 +154,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

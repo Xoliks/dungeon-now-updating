@@ -1,1 +1,1 @@
-summon creeper ~ ~ ~ {Tags: ["dnl.mob", "dnl.temple_of_tears", "dnl.minion_charged_creeper_poison"], PersistenceRequired: 1b, Health: 1.0f, ActiveEffects: [{Id: 19b, Amplifier: 1b, Duration: 20000000}], powered: 1b}
+summon creeper ~ ~ ~ {Tags: ["dnl.mob", "dnl.temple_of_tears", "dnl.minion_charged_creeper_poison"], PersistenceRequired: 1b, Health: 1.0f, active_effects: [{id: "minecraft:poison", amplifier: 1b, duration: -1}], powered: 1b}

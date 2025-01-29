@@ -98,8 +98,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dnl:item/knightly_sword_fragment"
-                }
+                    "value": "yazers_choice:many_crystal"                }
             ]
         },
         {

@@ -1,14 +1,19 @@
 {
   "criteria": {
     "spawner_chest": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
-        "location": {
-          "block": {
-            "tag": "dnl:chests",
-            "nbt": "{Lock:\"Spawner Chest\u00a7r\"}"
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#dnl:chests",
+                "nbt": "{lock: {components: {\"minecraft:custom_name\": '\"Spawner Chest§r\"'}}}"
+              }
+            }
           }
-        }
+        ]
       }
     }
   },

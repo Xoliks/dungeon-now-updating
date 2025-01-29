@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:poppy"
+      "id": "minecraft:poppy"
     },
     "title": {
       "translate": "Forgotten Field"
@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "dnl:forgotten_field"
+            "structures": "dnl:forgotten_field"
           }
         }
       }

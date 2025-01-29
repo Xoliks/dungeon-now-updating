@@ -5,6 +5,15 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
           "functions": [
@@ -28,8 +37,10 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:weakness\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:weakness"
+              }
             }
           ]
         }
@@ -112,7 +123,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

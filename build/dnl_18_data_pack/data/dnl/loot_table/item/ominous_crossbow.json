@@ -18,6 +18,7 @@
             },
             {
               "function": "minecraft:set_lore",
+"mode": "replace_all",
               "entity": "this",
               "lore": [
                 {
@@ -58,12 +59,30 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 4040006, dnl: {name: 'ominous_crossbow', item: 1, id: 6}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        4040006]
+              },
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "ominous_crossbow",
+                    "item": 1,
+                    "id": 6
+                  }
+                }
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{exp:0}}"
+              "function": "minecraft:set_components",
+              "components":{
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "exp": 0
+                  }
+                }
+              }
             }
           ]
         }

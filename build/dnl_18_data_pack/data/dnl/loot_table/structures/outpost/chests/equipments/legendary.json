@@ -2,6 +2,15 @@
     "type": "minecraft:chest",
     "pools": [
         {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "yazers_choice:few_crystal"
+            }
+          ]
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -9,8 +18,20 @@
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{Lore:['{\"translate\":\"Treasure\",\"color\":\"dark_aqua\",\"italic\":false}']},dnl.item:1b,dnl.treasure:1b,dnl.plains_pillager_camp:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:4s}]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                  "minecraft:quick_charge": 4
+                                },
+                                "minecraft:lore": [
+                                  "{\"translate\":\"Treasure\",\"color\":\"dark_aqua\",\"italic\":false}"
+                                ],
+                                "minecraft:custom_data": {
+                                  "dnl.item": 1,
+                                  "dnl.treasure": 1,
+                                  "dnl.plains_pillager_camp": 1
+                                }
+                              }
                         }
                     ]
                 }

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tipped_arrow",
+      "id": "minecraft:tipped_arrow",
       "nbt": "{Potion:\"minecraft:slowness\"}"
     },
     "title": {

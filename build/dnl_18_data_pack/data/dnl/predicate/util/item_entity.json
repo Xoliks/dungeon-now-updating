@@ -3,6 +3,16 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:item",
-    "nbt": "{Item:{tag:{dnl:{item:1}}}}"
+    "slots": {
+      "contents": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "dnl": {
+              "item": true
+            }
+          }
+        }
+      }
+    }
   }
 }

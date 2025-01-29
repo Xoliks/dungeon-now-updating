@@ -1,6 +1,15 @@
 {
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "yazers_choice:few_crystal"
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 3,
         "max": 4
@@ -125,7 +134,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head"
+          "value": "dnl:checkpoint_player_head"
         }
       ]
     },
@@ -142,27 +151,6 @@
                 "min": 2,
                 "max": 4
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_shovel",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.01,
-                "max": 0.2
-              }
-            },
-            {
-              "function": "minecraft:enchant_randomly"
             }
           ]
         }
@@ -247,25 +235,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 4,
-          "name": "dnl:item/music_disc_woodland_fountain"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:flint_and_steel",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.01,
-                "max": 0.2
-              }
-            }
-          ]
+          "value": "yazers_choice:many_crystal"
         }
       ]
     },
@@ -274,7 +244,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

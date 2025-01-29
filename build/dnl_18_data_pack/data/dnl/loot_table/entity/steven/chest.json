@@ -215,7 +215,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "dnl:maps/cleric_hideout"
+          "value": "dnl:maps/cleric_hideout"
         }
       ]
     },
@@ -224,7 +224,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnl:checkpoint_player_head",
+          "value": "dnl:checkpoint_player_head",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

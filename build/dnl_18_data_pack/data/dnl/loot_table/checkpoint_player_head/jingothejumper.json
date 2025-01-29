@@ -1,20 +1,33 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{dnl:{name:'checkpoint_player_head',item:1,id:4001},SkullOwner:\"Jingothejumper\",display:{Name:'{\"translate\":\"Jingothejumper\\'s Head\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"translate\":\"I am not fire bbh ffs\",\"color\":\"gray\",\"italic\":false}']}}"
-            }
-          ]
-        }
-      ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+  "minecraft:custom_name": "{\"translate\":\"Jingothejumper's Head\",\"color\":\"yellow\",\"italic\":false}",
+  "minecraft:lore": [
+    "{\"translate\":\"I am not fire bbh ffs\",\"color\":\"gray\",\"italic\":false}"
+  ],
+  "minecraft:profile": "Jingothejumper",
+  "minecraft:custom_data": {
+    "dnl": {
+      "name": "checkpoint_player_head",
+      "item": 1,
+      "id": 4001
     }
-  ]
+  }
+}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

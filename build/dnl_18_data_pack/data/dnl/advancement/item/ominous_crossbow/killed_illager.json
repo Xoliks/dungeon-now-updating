@@ -6,7 +6,13 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "nbt": "{dnl:{name:'ominous_crossbow'}}"
+              "components": {
+                "minecraft:custom_data": {
+                  "dnl": {
+                    "name": "ominous_crossbow"
+                  }
+                }
+              }
             }
           }
         },
